@@ -1,0 +1,28 @@
+---
+title: "坑"
+author:
+  - 解
+  - 决
+  - 坑
+documentclass: ctexart
+output:
+  rticles::ctex:
+    fig_caption: yes
+    number_sections: yes
+
+---
+```{latex echo=TRUE}
+```
+
+
+
+
+```{r fig.showtext=TRUE,echo=FALSE}
+print("完issue")
+x<-matrix(1,5,5)
+print(x)
+plot(cars,main='完issue')
+plot(cars,main='中文')
+```
+
+完
